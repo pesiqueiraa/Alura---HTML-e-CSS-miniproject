@@ -1,0 +1,60 @@
+* {
+    background-color: black;
+    color: #F6F6F6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.titulo-destaque {
+    color: #22D4FD;
+    
+}
+h1 {
+    font-family: "Krona one", sans-serif;
+    font-size: 36px;
+    /* margin-bottom: 40px; */
+    font-weight: 400;
+}
+
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    /* font-size: 24px; */
+
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10% 19%;
+}
+
+.conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+button {
+    border: none;
+    padding:21.5px;
+    color: black;
+    background-color: #22D4FD;
+    border-radius: 16px;
+    font-size: 24px;
+    width: 280px;
+    text-align: center;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.btn {
+    /* margin-top: 51px; */
+    display: flex;
+    justify-content: space-between;
+}
